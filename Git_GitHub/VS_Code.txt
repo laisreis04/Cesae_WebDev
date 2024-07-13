@@ -1,0 +1,8 @@
+No Visual Studio Code, para ratrear o estado dos seus docuemtos:
+
+U (Untracked): O arquivo foi criado ou está presente no diretório do seu projeto, mas não foi adicionado ao controle de versão do Git ainda. Para começar a rastrear este arquivo, você precisa adicioná-lo ao repositório com o comando git add.
+A (Added): O arquivo foi adicionado ao índice (staging area) e será incluído no próximo commit.
+M (Modified): O arquivo foi modificado em relação à última versão confirmada (committed).
+D (Deleted): O arquivo foi deletado e esta exclusão será incluída no próximo commit.
+R (Renamed): O arquivo foi renomeado.
+C (Copied): O arquivo foi copiado de outro arquivo existente.
