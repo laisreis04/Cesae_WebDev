@@ -1,0 +1,33 @@
+Git & GitHub
+
+**Iniciar um repositório**
+git init -> Para iniciar um repositório git  
+git status -> Para verificar o estado do repositório  
+
+**Adicionar arquivos**  
+git add NOMEDOARQUIVO -> adiciona um arquivo específico |*em NOMEDOARQUIVO coloque o nome do arquivo qeu você deseja adicionar  
+git add . -> Adiciona todos os arquivos
+
+**Guardar arquivos COMMIT**
+git commit -m "ESCREVER UMA MENSAGEM AQUI" -> Grava o arquivo ao Git  
+git commit -am "ESCREVER UMA MENSAGEM" -> Adiciona o arquivo ao Git e Grava ao mesmo tempo  
+
+**Verificar o estado/informações do commmit**
+git log -> Mostra as informações sobre os commits feitos
+git show -> Para ver a informações sobre o último commit
+
+**Branch**
+git branch -> Para verificar qual branch está a trabalhar
+git branch NOME ->Para criar uma nova branch |*onde está NOME, coloca o nome da sua nova branch  
+
+**Alternar Branch/Commit**
+git checkout NOME/HASH ->Para alternar entre branchs ou commits |*onde está NOME, coloca o nome da branch ou o codigo do commit
+
+git merge NOME ->Para adicionar as alterações feitas ao branch atual |*onde está NOME, coloca o nome da branch
+
+git branch -D NOME -> Para deletar definitivamente a branch |*onde está NOME, coloca o nome da branch
+
+**Enviar para o git**
+git push -> Envia todas os commmits feitos
+
+git pull -> Recebe as alterações feitas no repositório

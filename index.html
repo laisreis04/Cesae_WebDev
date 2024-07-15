@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nome:</h1>
+    <p>Sobre você</p>
+<br>
+<!--Listas não ordenadas-->
+    <ol>
+        <li>Index</li>
+        <li>Page 2</li>
+        <li>Contatos</li>
+    </ol>
+
+    <ul>
+        <li>Telefone</li>
+        <li>Nome</li>
+        <li>contato</li>
+    </ul>
+    <br>
+    <table border="1px">
+        <!--Table Row 2-->
+        <tr>
+            <!--Cabeçalho-->
+            <th>Nome</th>
+            <th>Contato</th>
+            <th>Presença</th>
+        </tr>
+        <tr>
+            <td>Lais</td>
+            <td>123456789</td>
+            <td>Sim</td>
+        </tr>
+        <!--Table Row 2-->
+        <tr>
+            <td class="coluna">linha 1.2</td>
+            <td>linha 2.2</td>
+            <td>linha 3.2</td>
+            
+
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+
+
+
+    <form action="destino.php">
+        <label for="login">login</label>
+        <input type="email" required placeholder="seuemail@aqui.pt">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" maxlength="8" minlength="4" >
+        <br>
+        <input type="date">
+        <br>
+        <input type="text" list="cidade" placeholder="Escolha uma opção">
+        <datalist id="cidade">
+            <option value="Porto">Porto</option>
+            <option value="Lisboa">Lisboa</option>
+        </datalist>
+        
+        <br>
+            <input type="submit">
+            
+    </form>
+
+
+
+
+<br>
+    <!--Link Interno-->
+    <a href="./page2.html">Página 2</a>
+<br>
+<br>
+    
+    <!--Link Externo-->
+    <a href="https://www.cesaedigital.pt/sobre/" target="_blank">Cesae</a>
+
+</body>
+</html>
