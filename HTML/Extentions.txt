@@ -2,7 +2,7 @@ Extensões Visual Studio Code
 
 Auto Rename Tag (Jun Han)
 Gitlens
-Bootsytrap 5 Quick Snippets
+Bootstrap 5 Quick Snippets
 Bootstrap 5 & Font Awsome Snippets
 Live Server (Ritwick Dey)
 Material Icon Theme (Philipp Kief)
