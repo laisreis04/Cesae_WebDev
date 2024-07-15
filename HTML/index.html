@@ -2,7 +2,7 @@
 
 <html lang="en">
 
-
+<!-- No head ficam todas as informações sobre o website, os metadados. Assim como a ligação para outros ficheiro (JavaScript e CSS) -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,37 +10,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
 </head>
 
 
-
+<!-- Body é o corpo do nosso website, aqui fica tudo o que será visivel para o user  -->
 
 <body>
     <h1 class="titulosH1">Nome:</h1>
     <p id="sobre">Sobre você</p>
     <p>About me</p>
-<br>
-<!--Listas não ordenadas-->
+    <br>
+
+    <!--Lista ordenadas-->
     <ol>
         <li>Index</li>
         <li>Page 2</li>
         <li>Contatos</li>
     </ol>
 
+    <!-- Lista não ordenada -->
     <ul>
         <li>Telefone</li>
         <li>Nome</li>
         <li>contato</li>
     </ul>
-
     <br>
+    <!-- Tabela -->
     <table border="1px">
-        <!--Table Row 2-->
+       
         <tr>
-            <!--Cabeçalho-->
-            <th>Nome</th>
+            <th>Nome</th> <!--Cabeçalho-->
             <th>Contato</th>
             <th>Presença</th>
         </tr>
@@ -49,12 +50,12 @@
             <td>123456789</td>
             <td>Sim</td>
         </tr>
-        <!--Table Row 2-->
+        
         <tr>
             <td class="coluna">linha 1.2</td>
             <td>linha 2.2</td>
             <td>linha 3.2</td>
-            
+
 
         </tr>
     </table>
@@ -62,40 +63,15 @@
     <br>
     <br>
 
-
-
-
-    <form action="destino.php">
-        <label for="login">login</label>
-        <input type="email" required placeholder="seuemail@aqui.pt">
-        <br>
-        <label for="senha">Senha</label>
-        <input type="password" maxlength="8" minlength="4" >
-        <br>
-        <input type="date">
-        <br>
-        <input type="text" list="cidade" placeholder="Escolha uma opção">
-        <datalist id="cidade">
-            <option value="Porto">Porto</option>
-            <option value="Lisboa">Lisboa</option>
-        </datalist>
-        
-        <br>
-            <input type="submit">
-            
-    </form>
-
-
-
-
-<br>
+    <br>
     <!--Link Interno-->
     <a href="./page2.html">Página 2</a>
-<br>
-<br>
-    
+    <br>
+    <br>
+
     <!--Link Externo-->
     <a href="https://www.cesaedigital.pt/sobre/" target="_blank">Cesae</a>
 
 </body>
+
 </html>

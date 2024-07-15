@@ -1,0 +1,33 @@
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: red;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+#sobre{
+    font-size: 14px;
+}
+
+.titulosH1, .titulosH2{
+    color: blueviolet;
+}
+
+li{
+    list-style: none;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+/* .playwrite-hr-<uniquifier {
+  font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
