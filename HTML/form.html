@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Formulário -->
+
+    <form action="destino.php">
+        <label for="login">login</label>
+        <input type="email" required placeholder="seuemail@aqui.pt">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" maxlength="8" minlength="4" >
+        <br>
+        <input type="date">
+        <br>
+        <input type="text" list="cidade" placeholder="Escolha uma opção">
+        <datalist id="cidade">
+            <option value="Porto">Porto</option>
+            <option value="Lisboa">Lisboa</option>
+        </datalist>
+        
+        <br>
+            <input type="submit">
+            
+    </form>
+    
+</body>
+</html>
