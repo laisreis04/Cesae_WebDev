@@ -21,6 +21,17 @@ document.getElementById("textoResultado").innerText = "Resultado é: " + resulta
 
 }
 
+//Função Subtração
+
+//Função Multiplicação
+
+//Função divisão
+
+
+
+
+
+
 //Função que irá comparar o tipo de dados que recebe para poder calcular
 
 function compararOpe(){
@@ -36,5 +47,6 @@ if(tipoOpe === "+"){
 if(tipoOpe === "-"){
     calcularSubtracao()
 }
+
 
 }
