@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <script src="./main.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <script src="./main.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body style="background-color: black;">
 
-<!-- Resultado - Texto -->
+  <!-- Resultado - Texto -->
 
-<div class="position-absolute top-0 start-50 translate-middle-x">
+  <div class="position-absolute top-0 start-50 translate-middle-x">
     <h2 id="textoResultado" style="color: #198754;"></h2>
-</div>
- 
-
-<div class="position-absolute top-50 start-50 translate-middle">
-
-<!-- input valor A -->
-<div class="input-group mb-3">
-    <span class="input-group-text" id="inputGroup-sizing-default">Valor A</span>
-    <input id="inputValorA" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
   </div>
 
-<!-- input valor B -->
-<div class="input-group mb-3">
-    <span class="input-group-text" id="inputGroup-sizing-default">Valor B</span>
-    <input id="inputValorB" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+
+  <div class="position-absolute top-50 start-50 translate-middle">
+
+    <!-- input valor A -->
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Valor A</span>
+      <input id="inputValorA" type="number" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default">
+    </div>
+
+    <!-- input valor B -->
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Valor B</span>
+      <input id="inputValorB" type="number" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default">
+    </div>
+
+    <!-- Tipo de operação, escolhida pelo user -->
+    <p style="color: #198754;">Inserir o tipo de operação usando: " + - / * "</p>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="inputGroup-sizing-default">Tipo de Operação</span>
+      <input id="tipoOperation" type="text" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default">
+    </div>
+
+    <!-- Botão -para chamar a função da calculadora -->
+
+    <button type="button" class="btn btn-success" onclick="compararOpe()">Calcular</button>
   </div>
 
-  <!-- Tipo de operação, escolhida pelo user -->
-   <p style="color: #198754;">Inserir o tipo de operação usando: " + - / * "</p>
-  <div class="input-group mb-3">
-    <span class="input-group-text" id="inputGroup-sizing-default">Tipo de Operação</span>
-    <input id="tipoOperation" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-  </div>
-    
-<!-- Botão -para chamar a função da calculadora -->
-
-<button type="button" class="btn btn-success" onclick="compararOpe()">Calcular</button>
-</div>
 
 
 
@@ -49,7 +56,9 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
